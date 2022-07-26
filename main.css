@@ -1,0 +1,55 @@
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.main {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.form {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__desc {
+    margin: .5rem 0;
+}
+
+.notes {
+    border-top: 1px solid #000;
+    list-style: none;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1.5rem .5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.note {
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: .5rem 1rem;
+    margin: .5rem;
+}
+.note__title {
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 10px 2px;
+}
+.note__description {
+    text-align: left;
+    width: 100%;
+}

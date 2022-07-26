@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note app</title>
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <main class="main">
+        <h1 class="title">Note app</h1>
+        <form id="form" class="form">
+            <input type="text" name="title" id="input-title" class="form__title">
+            <textarea name="description" id="input-description" class="form__desc" cols="32" rows="7"></textarea>
+            <button type="submit" id="input-submit" class="form__btn">Add note</button>
+        </form>
+    </main>
+
+    <ul id="notes" class="notes">
+        <!-- ... -->
+    </ul>
+
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
